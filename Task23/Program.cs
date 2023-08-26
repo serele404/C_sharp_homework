@@ -21,9 +21,9 @@ int InputNum(string message)
     return int.Parse(Console.ReadLine()!);
 }
 
-void ShowCube(int N)
+void ShowCubes(int num)
 {
-    for (int i = 1; i <=N; i++)
+    for (int i = 1; i <=num; i++)
     {
         int res = (int)Math.Pow(i,3);
         System.Console.WriteLine(res);
@@ -31,4 +31,4 @@ void ShowCube(int N)
     }
 }
 int number = InputNum("Введите число: ");
-ShowCube(number);
+ShowCubes(number);
