@@ -1,4 +1,4 @@
-﻿// Внутри класса Answer напишите методы CreateIncreasingMatrix, PrintArray, FindNumberByPosition 
+﻿﻿// Внутри класса Answer напишите методы CreateIncreasingMatrix, PrintArray, FindNumberByPosition 
 // и PrintCheckIfError.
 
 // Метод CreateIncreasingMatrix должен создавать матрицу заданной размерности,
